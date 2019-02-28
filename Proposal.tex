@@ -51,7 +51,23 @@ deep learning, convolutional neural network, siamese neural network, face detect
 Facial detection and recognition is a relative old area in computer vision. Convolutional neural network (CNN) has been used in the past to achieve good object detection capabilities. With large enough sample set, CNN can perform classifying and generalizing tasks with high accuracy as compared to many other techniques. However CNN is traditionally slow and unsuited for performing classifying tasks on live streaming video footage. CNN also requires large amount of images to train for each class, therefore making it unfeasible as a classifier for facial recognition. By treating facial recognition as a regression, one can assign a face to a vector and thus not requiring training on large set of images for each face. When a Viola-Jones feature detector is used in conjunction with such a CNN, we believe that fast facial recognition and differentiation can be achieved without prior training on each new test subject.
 
 \section{Related Work}
-
+1) 	FaceNet: A Unified Embedding for Face Recognition and Clustering
+	https://arxiv.org/abs/1503.03832
+	The paper proposes a system to implement face verification and recognition efficiently at scale FaceNet 
+	creates a mapping to a Euclidean space where distance corresponds to the facial similarity. The output 
+	of the FaceNet can be used as a feature vectors for tasks such as face recognition, verification and clustering.
+	
+2)	Names and faces in the news
+	https://ieeexplore.ieee.org/document/1315253
+	The paper shows the results of face clustering with a face image dataset containing ambiguous or inaccurate
+	labels. The goal is to show the results of a clustering model trained using "in the wild" images that are
+	more realistic compared to the usual training images.
+	
+3)	Face detection without bells and whistles
+	http://rodrigob.github.io/documents/2014\_eccv\_face\_detection\linebreak\_with\_supplementary\_material.pdf
+	The paper proposes a face detection model based on Deformable Parts Model (DPM) that yields high performance
+	results; the paper also discusses a face detector based on rigid templates similar to the Viola \& Jones 
+	detector. Additionally, the paper discusses issues with evaluation benchmarks and proposes an improved procedure.
 
 
 \section{Methodology}
@@ -76,14 +92,11 @@ Face detection and face recognition are both well-researched areas, similar algo
 
 \section{Discussion}
 
-
 \subsection{Limitations}
 Motion tracking of subjects in the video stream is not being considered in this implementation. The frame-to-frame movement and change of angle of the images present important temporal information which is not being considered by the convolutional network.
+The frame-to-frame object correlation could be a function in the detection module, which would potentially improve the accuracy of recognition by evaluating multiple frame of the same subject.
 
 \subsection{Possible Extensions [Future Work]}
 Parallel implementations of age, behavioural prediction, and other pattern recognizing models is possible in the same framework, as well as a recurrent neural network to assist in analyzing temporal data captured as the subjects move and their face angles change in a video stream, which could provide further accuracy improvement in face recognition.
-
-\section{Conclusion}
-
 
 \end{document}
