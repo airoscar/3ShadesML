@@ -1,3 +1,6 @@
+
+*.pickle
+
 # Latex editor files
 *.log
 *.gz
