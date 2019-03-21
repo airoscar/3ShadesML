@@ -1,5 +1,11 @@
+
+imdb/
 imdb_crop/
 
+# Weights
+*.h5
+
+# Pickle file
 *.pickle
 
 # Latex editor files
