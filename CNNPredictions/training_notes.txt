@@ -1,5 +1,6 @@
 BN-3-conv-32-node-2-dens-1553635516: started training with BN and dropout added in hidden layers.
 BN-3-conv-32-node-2-dens-1553636464: same settings as 1553635516 but using a larger dataset to compare difference in results (1_pct vs 5_pct datasets). Overall increased accuracy and reduced loss.
-BN-3-conv-32-node-2-dens-1553641383: same setting as 1553636464 but using large dense layers to compare difference in results (2048 nodes vs 1024 nodes). accuracy dropped, loss increased.
+BN-3-conv-32-node-2-dens-1553641383: same setting as 1553636464 but using large dense layers to compare difference in results (2048 nodes vs 1024 nodes). accuracy dropped, loss increased. Going back to 8X dense layer size.
 BN-4-conv-32-node-2-dens-1553646613: same setting as 1553636464 but using an extra set of hidden layers: slightly improved val accuracy and loss.
-BN-4-conv-32-node-2-dens-1553651832: same setting as 1553646613 but using larger image size (224px vs 120px).
+BN-4-conv-32-node-2-dens-1553651832: same setting as 1553646613 but using larger image size (224px vs 120px).slightly improved accuracy and loss. But training takes twice as long. Going back to 120px images for now, we can come back to 224px images when we have everything else finalized.
+BN-5-conv-32-node-2-dens-1553695243: same setting as 1553646613 but added another set of hidden layers.
