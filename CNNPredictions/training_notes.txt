@@ -1,0 +1,4 @@
+BN-3-conv-32-node-2-dens-1553635516: started training with BN and dropout added in hidden layers.
+BN-3-conv-32-node-2-dens-1553636464: same settings as 1553635516 but using a larger dataset to compare difference in results (1_pct vs 5_pct datasets). Overall increased accuracy and reduced loss.
+BN-3-conv-32-node-2-dens-1553641383: same setting as 1553636464 but using large dense layers to compare difference in results (2048 nodes vs 1024 nodes). accuracy dropped, loss increased.
+BN-4-conv-32-node-2-dens-1553646613: same setting as 1553636464 but using an extra hidden layer.
