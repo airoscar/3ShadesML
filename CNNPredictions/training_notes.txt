@@ -14,6 +14,12 @@ BN-5-conv-32-node-3-dens-1553703610: same setting as 1553695243 but added anothe
 
 So far, the best trials are BN-5-conv-32-node-2-dens-1553695243 and BN-4-conv-32-node-2-dens-1553646613. The only difference between these two are the number of hidden layers. We want to see if the two networks will start to differentiate with larger dataset. The next two trials will be using 10pct data set on these two networks for comparison.
 
-BN-4-conv-32-node-2-dens-1553710479: same as BN-4-conv-32-node-2-dens-1553646613 but using larger data set (10pct vs 5pct).
+BN-4-conv-32-node-2-dens-1553710479: same as BN-4-conv-32-node-2-dens-1553646613 but using larger data set (10pct vs 5pct). Slightly better with larger data set.
 
-BN-5-conv-32-node-2-dens-1553721908: same as BN-5-conv-32-node-2-dens-1553695243 but using larger data set (10pct vs 5pct).
+BN-5-conv-32-node-2-dens-1553721908: same as BN-5-conv-32-node-2-dens-1553695243 but using larger data set (10pct vs 5pct). Slightly worse with larger data set.
+
+The next two trials, we are going to re-run the previous two trials, but increasing epoch from 10 to 30. We want to compare the overfitting tendencies with higher epoch numbers.
+
+BN-4-conv-32-node-2-dens-1553736475: same as BN-4-conv-32-node-2-dens-1553710479, but with higher epoch (30 vs 10).
+
+
