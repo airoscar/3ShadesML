@@ -117,7 +117,6 @@ for dense_layer in dense_layers:
                                 use_multiprocessing=False,
                                 workers=4)
 
-pickle_out = open('model_10_epoch.pickle', 'wb')
-pickle.dump(model, pickle_out)
-pickle_out.close()
+            filepath = NAME + '.h5'
+            model.save(filepath)
 
