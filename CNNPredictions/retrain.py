@@ -97,16 +97,16 @@ val_generator = datagen.flow_from_dataframe(dataframe=df_train,
                                             seed=1,
                                             shuffle=True)
 
-test_generator = datagen.flow_from_dataframe(dataframe=df_test, 
-                                            directory=input_image_root_dir, 
-                                            x_col="path", y_col=None, 
-                                            class_mode=None, 
-                                            color_mode="grayscale",
-                                            target_size=(image_reshape_size,image_reshape_size),
-                                            batch_size=1,
-                                            shuffle=False)
+# test_generator = datagen.flow_from_dataframe(dataframe=df_test, 
+#                                             directory=input_image_root_dir, 
+#                                             x_col="path", y_col=None, 
+#                                             class_mode=None, 
+#                                             color_mode="grayscale",
+#                                             target_size=(image_reshape_size,image_reshape_size),
+#                                             batch_size=1,
+#                                             shuffle=False)
 
-
+model=load_model(inputModel)
 
 tensorboard = TensorBoard(log_dir='logs/{}'.format(NAME))
 callbacks = [tensorboard]
