@@ -123,7 +123,7 @@ model.fit_generator(generator=train_generator,
                     validation_steps=(val_generator.n // val_generator.batch_size),
                     epochs=epochs,
                     use_multiprocessing=False,
-                    workers=2)
+                    workers=4)
 
 filepath = NAME + '.h5'
 model.save(filepath)
