@@ -23,3 +23,5 @@ The next two trials, we are going to re-run the previous two trials, but increas
 BN-4-conv-32-node-2-dens-1553736475: same as BN-4-conv-32-node-2-dens-1553710479, but with higher epoch (30 vs 10). Overfitting started after 11 epochs.
 
 BN-5-conv-32-node-2-dens-1553790061: same as BN-5-conv-32-node-2-dens-1553721908, but with higher epoch (30 vs 10). Good performance, still improving at 30 epochs.
+
+Best results using weights from BN-5-conv-32-node-2-dens-1554663813.
