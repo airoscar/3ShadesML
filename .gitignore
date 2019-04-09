@@ -4,7 +4,7 @@ imdb_crop/
 
 # Weights
 # *.h5
-weights/
+# weights/
 
 # Pickle file
 *.pickle
