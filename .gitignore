@@ -7,7 +7,7 @@ imdb_crop/
 # weights/
 
 # Pickle file
-*.pickle
+# *.pickle
 
 # Latex editor files
 *.log
