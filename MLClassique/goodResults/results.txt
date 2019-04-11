@@ -1,0 +1,379 @@
+SVC(C=500, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=5, gamma=0.0007, kernel='poly',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.6219512195121951
+
+SVC(C=0.1, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.0007, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.7012195121951219
+
+
+SVC(C=0.1, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=1e-05, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=0.1, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.0001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.5609756097560976
+[0.5        0.56493506]
+SVC(C=0.1, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.6829268292682927
+[0.7       0.6754386]
+SVC(C=0.1, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.01, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=0.1, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.1, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=0.1, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=1, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=0.1, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=10, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=0.1, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=100, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=0.1, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=1000, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=0.1, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=10000, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+100% 10/10 [04:06<00:00, 25.38s/it]
+SVC(C=1, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=1e-05, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.5792682926829268
+[0.6        0.57718121]
+SVC(C=1, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.0001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.7012195121951219
+[0.66197183 0.7311828 ]
+SVC(C=1, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.7073170731707317
+[0.67142857 0.73404255]
+SVC(C=1, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.01, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.6890243902439024
+[0.70588235 0.68141593]
+SVC(C=1, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.1, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=1, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=1, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=1, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=10, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=1, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=100, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=1, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=1000, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=1, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=10000, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+100% 10/10 [04:02<00:00, 25.44s/it]
+SVC(C=10, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=1e-05, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.6951219512195121
+[0.64473684 0.73863636]
+SVC(C=10, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.0001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.7134146341463414
+[0.67123288 0.74725275]
+SVC(C=10, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.6097560975609756
+[0.54761905 0.675     ]
+SVC(C=10, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.01, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.6646341463414634
+[0.6440678  0.67619048]
+SVC(C=10, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.1, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=10, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=1, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=10, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=10, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=10, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=100, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=10, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=1000, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=10, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=10000, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+100% 10/10 [03:56<00:00, 24.75s/it]
+SVC(C=100, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=1e-05, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.6707317073170732
+[0.6097561  0.73170732]
+SVC(C=100, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.0001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.6219512195121951
+[0.55813953 0.69230769]
+SVC(C=100, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.6036585365853658
+[0.54320988 0.6626506 ]
+SVC(C=100, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.01, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.6646341463414634
+[0.6440678  0.67619048]
+SVC(C=100, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.1, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=100, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=1, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=100, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=10, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=100, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=100, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=100, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=1000, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=100, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=10000, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+100% 10/10 [03:54<00:00, 24.63s/it]
+SVC(C=1000, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=1e-05, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.6463414634146342
+[0.58333333 0.7125    ]
+SVC(C=1000, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.0001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.5487804878048781
+[0.48837209 0.61538462]
+SVC(C=1000, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.6036585365853658
+[0.54320988 0.6626506 ]
+SVC(C=1000, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.01, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.6646341463414634
+[0.6440678  0.67619048]
+SVC(C=1000, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.1, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=1000, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=1, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=1000, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=10, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=1000, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=100, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=1000, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=1000, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=1000, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=10000, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+100% 10/10 [03:56<00:00, 24.67s/it]
+SVC(C=10000, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=1e-05, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.5548780487804879
+[0.49484536 0.64179104]
+SVC(C=10000, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.0001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.524390243902439
+[0.46590909 0.59210526]
+SVC(C=10000, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.6036585365853658
+[0.54320988 0.6626506 ]
+SVC(C=10000, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.01, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.6646341463414634
+[0.6440678  0.67619048]
+SVC(C=10000, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=0.1, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=10000, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=1, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=10000, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=10, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=10000, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=100, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=10000, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=1000, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+SVC(C=10000, cache_size=500, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=1, gamma=10000, kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True, tol=0.9,
+  verbose=False)
+0.43902439024390244
+[0.43902439 0.        ]
+Trained and tested with 1.000% of the cleaned data set(163336 images)
