@@ -2,6 +2,8 @@
 imdb/
 imdb_crop/
 
+scripts.py
+
 # Weights
 # *.h5
 # weights/
